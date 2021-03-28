@@ -1,0 +1,1111 @@
+@import "https://fonts.google.com/specimen/Dancing+Script?preview.text_type=custom";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand img{
+    display: block !important;
+    margin: 15px 0px !important;
+    margin-left: 10px !important;
+}
+
+a.nav-link {
+    font-size: large;
+}
+
+li.nav-item{
+    margin: 0px 5px !important;
+}
+
+.navbar-collapse p{
+    margin: 28px 15px;
+}
+
+.fa-phone-alt{
+    color: red;
+}
+
+.hr{
+    height: 85%;
+    border-left: solid 1px;
+}
+.fa-instagram,.fa-linkedin-in, .fa-facebook-f, .fa-google-plus-g{
+    margin-left: 10px;
+    margin: 12px;
+}
+
+.fa-google-plus-g{
+    color: rgb(215, 75, 64);
+}
+
+.fa-instagram{
+    color: rgb(222, 34, 81);
+}
+
+.fa-instagram:hover{
+    color: red;
+}
+
+.fa-facebook-f:hover{
+    color: red;
+}
+
+.fa-linkedin-in:hover{
+    color: red;
+}
+
+.fa-google-plus-g:hover{
+    color: red;
+}
+
+.fa-search{
+    margin: 12px;
+    font-size: 26px;
+}
+
+span.navbar-toggler {
+    border: none;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+input.form-control.search {
+    height: 64px !important;
+}
+
+.col-md-6.input-group.text-center.search-1 {
+    top: 50% !important;
+    left: 26% !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.page-slide p{
+    font-size: x-small;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Blog-slide p{
+    font-size: x-small;
+    margin: 0px;
+    padding: 0px;
+}
+
+i.fas.fa-angle-down {
+    float: right;
+}
+
+.carousel-caption h3{
+    font-family: "Brush Script MT";
+    font-size: 140px;
+    color: #fff;
+}
+
+.carousel-inner{
+    width: 100% !important;
+}
+
+.carousel-caption{
+    top: 10% !important;
+}
+
+@media (min-width: 800px) and (max-width: 1037px) {
+    .carousel-caption h3{
+        font-family: "Brush Script MT";
+        font-size: 90px;
+        color: #fff;
+    }
+
+    .carousel-inner{
+        width: 100% !important;
+    }
+
+    .carousel-caption{
+        top: 10% !important;
+        padding-top: 0px !important;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 799px) {
+    .carousel-caption h3{
+        font-family: "Brush Script MT";
+        font-size: 50px !important;
+        color: #fff;
+    }
+
+    .carousel-inner{
+        width: 100% !important;
+    }
+
+    .carousel-caption{
+        top: 8% !important;
+        padding-top: 0px !important;
+    }
+
+    .boxed-3{
+        padding: 7px 10px !important;
+        background-color: rgb(30, 198, 182) !important;
+        outline-color: rgb(30, 198, 182) !important;
+        border-color: rgb(30, 198, 182) !important;
+    }
+}
+
+.boxed-3:hover{
+    background-color: #FF4A52 !important;
+    border-color: #FF4A52 !important;
+}
+
+.boxed-3{
+    padding: 18px 31px !important;
+    background-color: rgb(30, 198, 182) !important;
+    outline-color: rgb(30, 198, 182) !important;
+    border-color: rgb(30, 198, 182) !important;
+}
+
+@media (min-width: 400px) and (max-width: 570px) {
+    .carousel-caption h3{
+        font-family: "Brush Script MT";
+        font-size: 42px !important;
+        color: #fff;
+    }
+
+    .carousel-caption p{
+        font-size: 10px;
+    }
+
+    .carousel-inner{
+        width: 100% !important;
+    }
+
+    .carousel-caption{
+        top: 0% !important;
+        padding-top: 0px !important;
+    }
+
+    .boxed-3{
+        padding: 7px 5px !important;
+        background-color: rgb(30, 198, 182) !important;
+        outline-color: rgb(30, 198, 182) !important;
+        border-color: rgb(30, 198, 182) !important;
+    }
+}
+
+.Box-now{
+    background-color: rgb(4, 14, 39) !important;
+}
+
+.Box-now h3{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.Box-now input{
+    background-color: rgb(4, 14, 39) !important;
+    color: white;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.Box-now select{
+    background-color: rgb(4, 14, 39) !important;
+    color: white;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.Box-now option{
+    background-color: white;
+}
+
+.Box-now button.btn.btn-primary.form-control {
+    height: 50px !important;
+    background-color: rgb(255, 74, 82);
+    border: rgb(255, 74, 82);
+    margin-bottom: 20px;
+}
+
+.Box-now button.btn.btn-primary.form-control:hover{
+    background-color: rgb(30, 198, 182);
+    border: rgb(30, 198, 182);
+}
+
+i.fas.fa-chevron-up {
+    width: 50px;
+    height: 50px;
+    background: black;
+    opacity: 0.7;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -20px;
+    cursor: pointer;
+    z-index: 1001;
+    left: 95%;
+    border-radius: 100%;
+}
+
+i.fas.fa-chevron-up:hover{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.hiedden-top{
+    display: none;
+}
+
+.destination{
+    margin-bottom: 55px !important;
+}
+
+.destination h2{
+    margin-top: 60px;
+}
+
+.destination p{
+    margin-bottom: 40px;
+}
+
+.single_destination {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.single_destination .image {
+    width: 100%;
+    height: auto;
+}
+
+.single_destination .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height:100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.single_destination .overlay p{
+    position: absolute;
+    top: 75%;
+    font-size: larger;
+}
+
+.single_destination .overlay a{
+    display: inline-block;
+    background: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 0px 12px;
+    height: 25px;
+    color: white;
+    line-height: 25px;
+    top: 77%;
+    position: absolute;
+    left: 70%;
+}
+
+.single_destination .overlay:hover a{
+    background-color: #ff4a52;
+    color: #fff;
+}
+
+.single_destination .overlay:hover p{
+    color: #ff4a52;
+}
+
+.email{
+    background-image: url("../img/newsletter.png") !important;
+}
+
+.email-title h5{
+    margin-top: 66px !important;
+}
+
+.subscribe{
+    background-color: rgb(255, 74, 82) !important;
+    height: 50px !important;
+    width: 120px !important;
+    color: white !important;
+    border-color: rgb(255, 74, 82) !important;
+}
+
+.subscribe:hover{
+    background-color: #1EC6B6 !important;
+    border-color: #1EC6B6 !important;
+}
+
+.email-input{
+    height: 50px !important;
+}
+
+.from-email{
+    margin-top: 66px !important;
+}
+
+@media (min-width: 400px) and (max-width: 991px) {
+    .subscribe{
+        background-color: rgb(255, 74, 82) !important;
+        height: 50px !important;
+        width: 100% !important;
+        color: white !important;
+        border-color: rgb(255, 74, 82) !important;
+    }
+
+    .email-title h5{
+        margin-top: 30px !important;
+    }
+
+    .from-email{
+        margin-top: 0px !important;
+    }
+
+    .subscribe{
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+}
+
+.Popular-area{
+    padding-top: 105px !important;
+    background-color: rgb(247, 250, 253) !important;
+    height: auto !important;
+}
+
+.Popular-area .container{
+    padding-bottom: 20px !important;
+}
+
+.single_destination1 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    left: -20px;
+}
+
+.single_destination1_left{
+    left: -20px;
+}
+
+.single_destination1 .image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.single_destination1 .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height:62%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.single_destination1 .overlay p{
+    position: absolute;
+    top: 75%;
+    font-size: larger;
+}
+
+.single_destination1 .overlay a{
+    display: inline-block;
+    background: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 0px 12px;
+    height: 25px;
+    color: white;
+    line-height: 25px;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.single_destination1 .overlay:hover a{
+    background-color: #ff4a52;
+    color: #fff;
+}
+
+.single_destination1:hover{
+    box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+.single_destination1 .place-info:hover a{
+    color: #ff4a52 !important;
+}
+
+.place-info{
+    background-color: white;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+    padding: 13px 20px 12px 20px;
+}
+
+.place-info a{
+    font-size: 25px;
+    color: black;
+}
+
+.place-info p{
+    font-size: 14px;
+    color: #7A838B;
+}
+
+.fa-star{
+    font-size: 12px;
+    color: #FDAE5C;
+}
+
+.justify-content-between a{
+    font-size: 12px;
+    color: #7A838B;
+}
+
+.fa-clock{
+    color: #7A838B;
+}
+
+.More-Places a{
+    text-decoration: none !important;
+    background-color: #ff4a52;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: white;
+}
+
+.More-Places:hover a{
+    background-color: #1EC6B6;
+    color: white;
+}
+
+.More-Places{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.video_area{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 190px 0;
+}
+
+.vide0-bg{
+    background-image: url("../img/video.jpg");
+}
+
+.video_area .text-center h3 {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.fa-play {
+    background-color: #1EC6B6;
+    padding: 25px;
+    border-radius: 50%;
+    color: white;
+}
+
+.travel_variation_area {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.travel_variation_area h4{
+    margin-top: 40px;
+}
+
+.travel_variation_area p{
+    color: rgb(115, 110, 110);
+}
+
+.testimonial_area{
+    background-color: rgb(247, 250, 253);
+    padding-bottom: 70px;
+}
+
+.testimonial_area .carousel-indicators li{
+    margin-top: 20px;
+    background-color: #ff4a52 !important;
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50%;
+}
+
+.testimonial_area .carousel-indicators{
+    margin-top: 90px !important;
+    top: 70px !important;
+    padding-top: 25px;
+}
+
+.Tom-Mouse{
+    margin-top: 70px !important;
+}
+
+.Tom-Mouse h3{
+    font-size: 16px;
+    color: rgb(115, 110, 110);
+}
+
+.Tom-Mouse p{
+    font-size: 18px;
+    margin-top: 10px !important;
+}
+
+.recent-trips{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.recent-trips h2{
+    padding-bottom: 40px;
+}
+
+.recent-trips img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.recent-trips p{
+    margin-top: 10px;
+    color: rgb(115, 110, 110);
+    margin-bottom:  1px;
+}
+
+.recent-trips a{
+    text-decoration: none !important;
+    font-size: 23px;
+    color: black;
+}
+
+.recent-trips1{
+    margin-bottom: 20px;
+}
+
+.recent-trips1:hover a{
+    color: #ff4a52;
+}
+
+footer{
+    padding-bottom: 20px;
+    padding-top: 90px;
+    background-color: rgb(4, 14, 39);
+}
+
+footer img{
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 5px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ff4a52;
+}
+
+.footer-contact{
+    padding-top: 10px;
+}
+
+.footer-contact .fa-youtube{
+    margin-left: 10px;
+}
+
+.footer-contact a{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.footer-contact .facebook{
+    margin-left: 0px;
+}
+
+.company h2{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 28px;
+}
+
+.company a{
+    margin-bottom: 20px;
+}
+
+.company ul li{
+    list-style: none;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.footer_widget ul li{
+    list-style: none;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.footer-popular h2{
+    font-size: 24px;
+    color: white;
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+
+.single_insta{
+    width: 33.33%;
+    float: left;
+    padding: 7.5px;
+    overflow: hidden;
+}
+
+.single_insta img{
+    border-radius: 10px;
+}
+
+.insta h2{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer h1{
+    color: white !important;
+}
+
+.copyright{
+    color: #7A838B;
+}
+/*end home*/
+
+.bradcam_area{
+    padding: 156px 0px;
+    background-image: url("../img/bradcam3.jpg");
+    background-position: center;
+}
+
+.bradcam_area h3{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: "Nothing You Could Do", cursive;
+    text-shadow: 6px -3px 7px rgba(206,89,55,0.78);
+}
+
+.bradcam_area p{
+    color: white;
+    text-shadow: 6px -3px 7px rgba(206,89,55,0.78);
+}
+
+.about_story{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-info p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #7A838B;
+}
+
+.counter_wrap{
+    padding-top: 120px;
+}
+
+.counter_wrap h3{
+    font-size: 60px;
+    color: #FF4A52;
+    margin-bottom: 17px;
+}
+
+.counter_wrap p{
+    color: #7A838B;
+}
+
+.story_thumb img{
+    margin-bottom: 20px !important;
+}
+/*end about*/
+
+.popular_places_area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.filter_result_wrap{
+    border: solid 1px;
+    border-color: #7A838B;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.filter_result_wrap .form-control{
+    height: 50px !important;
+    margin-bottom: 20px !important;
+}
+
+.reset{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reset a{
+    padding: 13px 135px;
+    background-color: #FF4A52;
+    width: 100%;
+    border-radius: 10px;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.reset a:hover{
+    background-color: #1EC6B6;
+}
+
+.img-result:hover{
+    box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+.img-result {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.img-result .image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.img-result .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height:62%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.img-result .overlay p{
+    position: absolute;
+    top: 75%;
+    font-size: larger;
+}
+
+.img-result .overlay a{
+    display: inline-block;
+    background: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 0px 12px;
+    height: 25px;
+    color: white;
+    line-height: 25px;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.img-result .overlay:hover a{
+    background-color: #ff4a52;
+    color: #fff;
+}
+/*end destinations*/
+
+
+.destination-details{
+    padding: 340px 0px;
+    background-image: url("../img/destination.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.destination-details h3{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: "Nothing You Could Do", cursive;
+    text-shadow: 6px -3px 7px rgba(206,89,55,0.78);
+}
+
+.destination-details p{
+    color: white;
+    text-shadow: 6px -3px 7px rgba(206,89,55,0.78);
+}
+
+.destination-details-info{
+    padding: 100px;
+}
+
+.contact-join input{
+    width: 49%;
+    height: 41px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.contact-join{
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact-join .btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #ff4a52;
+}
+
+.contact-join .btn:hover{
+    background-color: #1EC6B6;
+}
+/*end destination-details*/
+
+.element{
+    padding: 175px 0px;
+    background-image: url("../img/bradcam4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.element h3{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: "Nothing You Could Do", cursive;
+    text-shadow: 6px -3px 7px rgba(206,89,55,0.78);
+}
+
+.element p{
+    color: white;
+    text-shadow: 6px -3px 7px rgba(206,89,55,0.78);
+}
+
+
+.sample-text-area{
+    padding: 100px;
+}
+
+.sample-text-area p{
+    color: #7A838B;
+    font-size: 18px;
+}
+
+.sample-text-area b{
+    color: #ff5e13;
+}
+
+.sample-text-area sub{
+    color: #ff5e13;
+}
+
+.sample-text-area sup{
+    color: #ff5e13;
+}
+
+.sample-text-area del{
+    color: #ff5e13;
+}
+
+.sample-text-area u{
+    color: #ff5e13;
+}
+/*end element*/
+
+.map{
+    padding: 100px;
+}
+
+.contact-from{
+    padding-bottom: 100px;
+}
+
+.contact-from textarea{
+    height: 130px !important;
+}
+
+.contact-from input{
+    margin: 10px 0px;
+    height: 50px;
+}
+
+
+.fa-home{
+    font-size: 40px;
+}
+
+.fa-mobile{
+    font-size: 40px;
+}
+
+.fa-envelope{
+    font-size: 40px;
+}
+
+.media-body{
+    margin-left: 10px;
+}
+
+.media-body h3{
+    font-size: 15px;
+}
+
+.media-body p{
+    font-size: 12px;
+}
+
+.contact-infor_icon{
+    margin-right: 20px;
+}
